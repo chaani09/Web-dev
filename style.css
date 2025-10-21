@@ -1,0 +1,11 @@
+body {
+  border-color:blue;
+}
+.header{
+    //background-color: aqua;
+    border:20px;
+    border-color:black;
+    padding:10px;
+    margin:10px;
+    margin-color:black;
+}
