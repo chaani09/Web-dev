@@ -9,3 +9,14 @@ body {
     margin:10px;
     margin-color:black;
 }
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius:10px;
+  border-style:outset;
+  border-color: red;
+}
+td{
+  color: blue;
+  background-color: pink;
+}
