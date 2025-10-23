@@ -20,3 +20,14 @@ td{
   color: blue;
   background-color: pink;
 }
+#text{
+  background-color: #f9a3a3ff;
+}
+#change-color{
+  background-color: #a3f6f9ff;
+}
+div{
+  display:flex;
+  justify-content:space-around;
+
+}
