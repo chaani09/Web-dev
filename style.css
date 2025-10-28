@@ -1,33 +1,75 @@
+* {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 body {
-  border-color:blue;
+  border-color: blue;
 }
-.header{
-    //background-color: aqua;
-    border:20px;
-    border-color:black;
-    padding:10px;
-    margin:10px;
-    margin-color:black;
+.header {
+  //background-color: aqua;
+  border: 20px;
+  border-color: black;
+  padding: 10px;
+  margin: 10px;
+  margin-color: black;
 }
-table,th,td{
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
-  border-radius:10px;
-  border-style:outset;
+  border-radius: 10px;
+  border-style: outset;
   border-color: red;
 }
-td{
+td {
   color: blue;
   background-color: pink;
 }
-#text{
+#text {
   background-color: #f9a3a3ff;
 }
-#change-color{
+#change-color {
   background-color: #a3f6f9ff;
 }
-div{
-  display:flex;
-  justify-content:space-around;
+div {
+  display: flex;
+  justify-content: space-around;
+}
+#box-model {
+  width: 300px;
+  background-color: grey;
+  border: 10px solid;
+  border-color: green;
+  padding: 30px;
+  margin: 30px;
+  margin-left: 100px;
+  outline-style: dotted;
+  outline-width: 3px;
+  text-align: right;
+  text-transform: uppercase;
+  font-family: Times New Roman;
+}
 
+.user-icon {
+  width: 100px;
+  height: 100px;
+  /* margin: 0px; */
+}
+#music {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  background-color: blue;
+  flex-direction: column;
+}
+.container div {
+  width: 100px;
+  padding: 10px;
 }
