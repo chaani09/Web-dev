@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Learning Shit</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <script
+      src="https://example.com/fontawesome/v7.0.1/js/fontawesome.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <script src="https://example.com/fontawesome/v7.0.1/js/solid.js"></script>
+    <script src="https://example.com/fontawesome/v7.0.1/js/brands.js"></script>
   </head>
 
-  <body>
-    <header class="header">
+  <body class="bg-blue-50">
+    <header>
       <!--These are comments, 
     this is how i need to write those.-->
 
@@ -30,47 +42,133 @@
     >
       I am Chaani, the inevitable. Here we go!!!!!1
     </h2>
-    <table style="width: 100%; text-align: center;">
-  <tr>
-    <th style="width:auto">Person 1</th>
-    <th style="width:auto">Person 2</th>
-    <th style="width:auto">Person 3</th>
-  </tr>
-  <tr>
-    <td>Email</td>
-    <td>Tobias lia nusdf oisndf df </td>
-    <td>Linus</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
-  </tr>
-</table>
-<br>
-<p style="background-color: antiquewhite;">hello <span style="background-color: rgb(207, 255, 216);">this is</span>  a. new line to test the span tag. </p>
-<br>
-<div id="text">
-  <h3>This is the h3 element</h3>
-  <p>Lorem ipsum dolor sit amet <span id="change-color">consectetur adipisicing</span> elit. Cupiditate architecto est aliquid, quam, fugit veniam esse eaque quo qui earum.</p>
-</div>
+    <table style="width: 100%; text-align: center">
+      <tr>
+        <th style="width: auto">Person 1</th>
+        <th style="width: auto">Person 2</th>
+        <th style="width: auto">Person 3</th>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>Tobias lia nusdf oisndf df</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <br />
+    <p style="background-color: antiquewhite">
+      hello <span style="background-color: rgb(207, 255, 216)">this is</span> a.
+      new line to test the span tag.
+    </p>
+    <br />
+    <div id="text">
+      <h3>This is the h3 element</h3>
+      <p>
+        Lorem ipsum dolor sit amet
+        <span id="change-color">consectetur adipisicing</span> elit. Cupiditate
+        architecto est aliquid, quam, fugit veniam esse eaque quo qui earum.
+      </p>
+    </div>
 
-<div style="background-color:#FFF4A3;">
-  <h2>London</h2>
-  <p>London is the capital city of England.</p>
-  <p>London has over 9 million inhabitants.</p>
-</div>
+    <div style="background-color: #fff4a3">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>London has over 9 million inhabitants.</p>
+    </div>
 
-<div style="background-color:#FFC0C7;">
-  <h2>Oslo</h2>
-  <p>Oslo is the capital city of Norway.</p>
-  <p>Oslo has over 700,000 inhabitants.</p>
-</div>
+    <div style="background-color: #ffc0c7">
+      <h2>Oslo</h2>
+      <p>Oslo is the capital city of Norway.</p>
+      <p>Oslo has over 700,000 inhabitants.</p>
+    </div>
 
-<div style="background-color:#D9EEE1;">
-  <h2>Rome</h2>
-  <p>Rome is the capital city of Italy.</p>
-  <p>Rome has over 4 million inhabitants.</p>
-</div>
+    <div style="background-color: #d9eee1">
+      <h2>Rome</h2>
+      <p>Rome is the capital city of Italy.</p>
+      <p>Rome has over 4 million inhabitants.</p>
+    </div>
+    <br />
+    <br />
+    <span
+      ><p
+        style="
+          border: 1px solid blue;
+          border-style: dashed;
+          margin-left: 10px;
+          border-radius: 5px;
+        "
+      >
+        Now I know how to use emojis. &#128511; &#128511; &#128511;
+      </p></span
+    >
+    <br />
+    <h1 style="background-image: url('tree.jpeg'); margin: auto">
+      background image chusaava mowaa! chettu undi.
+    </h1>
+    <br /><br />
+    <div id="box-model">
+      <p>
+        This is a pragraph to test the box model inside a div. I'm used
+        width:300px; background-color:grey; border: 10px solid;
+        border-color:green; padding:30px; margin:30px; margin-left:100px;
+      </p>
+    </div>
+    <!-- <i class="fa-solid fa-camera"></i>
+    <i data-fa-i2svg>
+  <svg
+    class="svg-inline--fa fa-camera fa-w-16"
+    aria-hidden="true"
+    data-prefix="fa-solid"
+    data-icon="camera"
+    role="img"
+    viewBox="0 0 512 512"
+    data-fa-i2svg=""
+  >
+    <path
+      fill="currentColor"
+      d="M188.12 210.74L142.86 256l45.25 45.25L233.37 256l-45.25-45.26zm113.13-22.62L256 142.86l-45.25 45.25L256 233.37l45.25-45.25zm-90.5 135.76L256 369.14l45.26-45.26L256 278.63l-45.25 45.25zM256 0C114.62 0 0 114.62 0 256s114.62 256 256 256 256-114.62 256-256S397.38 0 256 0zm186.68 295.6l-11.31 11.31c-3.12 3.12-8.19 3.12-11.31 0l-28.29-28.29-45.25 45.25 33.94 33.94 16.97-16.97c3.12-3.12 8.19-3.12 11.31 0l11.31 11.31c3.12 3.12 3.12 8.19 0 11.31l-16.97 16.97 16.97 16.97c3.12 3.12 3.12 8.19 0 11.31l-11.31 11.31c-3.12 3.12-8.19 3.12-11.31 0l-16.97-16.97-16.97 16.97c-3.12 3.12-8.19 3.12-11.31 0l-11.31-11.31c-3.12-3.12-3.12-8.19 0-11.31l16.97-16.97-33.94-33.94-45.26 45.26 28.29 28.29c3.12 3.12 3.12 8.19 0 11.31l-11.31 11.31c-3.12 3.12-8.19 3.12-11.31 0L256 414.39l-28.29 28.29c-3.12 3.12-8.19 3.12-11.31 0l-11.31-11.31c-3.12-3.12-3.12-8.19 0-11.31l28.29-28.29-45.25-45.26-33.94 33.94 16.97 16.97c3.12 3.12 3.12 8.19 0 11.31l-11.31 11.31c-3.12 3.12-8.19 3.12-11.31 0l-16.97-16.97-16.97 16.97c-3.12 3.12-8.19 3.12-11.31 0l-11.31-11.31c-3.12-3.12-3.12-8.19 0-11.31l16.97-16.97-16.97-16.97c-3.12-3.12-3.12-8.19 0-11.31l11.31-11.31c3.12-3.12 8.19-3.12 11.31 0l16.97 16.97 33.94-33.94-45.25-45.25-28.29 28.29c-3.12 3.12-8.19 3.12-11.31 0L69.32 295.6c-3.12-3.12-3.12-8.19 0-11.31L97.61 256l-28.29-28.29c-3.12-3.12-3.12-8.19 0-11.31l11.31-11.31c3.12-3.12 8.19-3.12 11.31 0l28.29 28.29 45.25-45.26-33.94-33.94-16.97 16.97c-3.12 3.12-8.19 3.12-11.31 0l-11.31-11.31c-3.12-3.12-3.12-8.19 0-11.31l16.97-16.97-16.97-16.97c-3.12-3.12-3.12-8.19 0-11.31l11.31-11.31c3.12-3.12 8.19-3.12 11.31 0l16.97 16.97 16.97-16.97c3.12-3.12 8.19-3.12 11.31 0l11.31 11.31c3.12 3.12 3.12 8.19 0 11.31l-16.97 16.97 33.94 33.94 45.26-45.25-28.29-28.29c-3.12-3.12-3.12-8.19 0-11.31l11.31-11.31c3.12-3.12 8.19-3.12 11.31 0L256 97.61l28.29-28.29c3.12-3.12 8.19-3.12 11.31 0l11.31 11.31c3.12 3.12 3.12 8.19 0 11.31l-28.29 28.29 45.26 45.25 33.94-33.94-16.97-16.97c-3.12-3.12-3.12-8.19 0-11.31l11.31-11.31c3.12-3.12 8.19-3.12 11.31 0l16.97 16.97 16.97-16.97c3.12-3.12 8.19-3.12 11.31 0l11.31 11.31c3.12 3.12 3.12 8.19 0 11.31l-16.97 16.97 16.97 16.97c3.12 3.12 3.12 8.19 0 11.31l-11.31 11.31c-3.12 3.12-8.19 3.12-11.31 0l-16.97-16.97-33.94 33.94 45.25 45.26 28.29-28.29c3.12-3.12 8.19-3.12 11.31 0l11.31 11.31c3.12 3.12 3.12 8.19 0 11.31L414.39 256l28.29 28.28a8.015 8.015 0 0 1 0 11.32zM278.63 256l45.26 45.25L369.14 256l-45.25-45.26L278.63 256z"
+    ></path>
+    
+  </svg>
+</i> -->
+    <!-- <i class="fa-solid fa-circle-user"></i> -->
+    <div>
+    <p>
+      Wow mama now I know how to add an icon from fontawesome.com Below is a
+      user icon. I wonder if people use this kinda shit to import icons or maybe
+      they just download some icons and use them so there would be no dependency
+      on external packages.
+    </p>
+    
+      <svg
+        class="user-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 1000"
+      >
+        <path
+          d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2 35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"
+        />
+      </svg>
+      <svg
+        class="user-icon"
+        id="music"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M468 7c7.6 6.1 12 15.3 12 25l0 304c0 44.2-43 80-96 80s-96-35.8-96-80 43-80 96-80c11.2 0 22 1.6 32 4.6l0-116.7-224 49.8 0 206.3c0 44.2-43 80-96 80s-96-35.8-96-80 43-80 96-80c11.2 0 22 1.6 32 4.6L128 96c0-15 10.4-28 25.1-31.2l288-64c9.5-2.1 19.4 .2 27 6.3z"
+        />
+      </svg>
+    </div>
+    </div>
+    <div class="container">
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
+    </div>
   </body>
 </html>
